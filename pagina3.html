@@ -19,11 +19,43 @@
             <input type="password" name="Senha" id="Senha" minlength="3" maxlength="15" required>
            <br> <input type="c" name="Endereço" id="Endereço:" placeholder="Digite seu Endereço:" size="60">
            <br> <input type="text" name="campo1" id="campo1" readonly value="Informação">
-           <br> <input type="text" name="campo2" id="campo2" readonly value="Info2" disabled>
+           <input type="text" name="campo2" id="campo2" readonly value="Info2" disabled>
            <br><input type="hidden" name="campo 3" value="campo 3">
-           <br> <label for="">Número : </label> <input type="number" name="numero" id="numero" min="18" max="100">
-
-            <br><input type="submit" value="Enviar">    
+           <label for="">Número : </label> <input type="number" name="numero" id="numero" min="18" max="100">
+           <br><input type="date" name="date" id="">
+           <input type="time" name="time" id="">
+           <input type="datetime-local" name="datetime-local" id="">
+           <input type="month" name="month" id="">
+           <input type="week" name="week" id="">
+           <br><label for="campoCB">Manter conectado</label>
+           <input type="checkbox" name="campoCB" id="campoCB" value="S" checked>
+           <br>
+           <label for="Cidade1">Blumenau</label>
+           <input type="radio" name="cidade" id="Cidade1" value="BNU" checked>
+           <label for="Cidade2">Gaspar</label>
+           <input type="radio" name="cidade" id="Cidade2" value="GAS">
+           <label for="Cidade3">Indaial</label>
+           <input type="radio" name="cidade" id="Cidade3" value="IND">
+           <br>
+           <label for="estado">Estado</label>
+           <select name="estado" id="estado">
+                <option value="SC">Santa Catarina</option>
+                <option value="PR">Paraná</option>
+                <option value="RS">Rio Grande do Sul</option>
+           </select>
+           <br>
+           <textarea name="paragrafo" id cols="50" rows="10"></textarea>
+           <br>
+           <input type="email" name="email" id>
+           <input type="url" name="url" id>
+           <input type="range" name="range" id>
+           <input type="search" name="search" id>
+           <input type="tel" name id pattern="[0-9]{2} [0-9]{5}-[0-9]{4}">
+           <input type="text" name="Cpf" id placeholder="999.999.999-99" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}">
+           <br>
+           <input type="file" name="arquivo" id>
+            <br>
+            <input type="submit" value="Enviar">    
             <input type="reset" value="Limpar">
             
         </form>

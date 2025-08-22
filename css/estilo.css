@@ -8,5 +8,5 @@ td, th {
     border: 1px solid black;
     padding: 5px;
 
-    font-family: 'Courier New', Courier, !important;
+    font-family: 'Courier New', Courier, monospace !important;
 }
